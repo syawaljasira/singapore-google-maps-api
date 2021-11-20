@@ -3,7 +3,7 @@ import { MdArrowDropDown, MdArrowDropUp } from 'react-icons/md';
 
 const BrowseDashboard = () => {
   return (
-    <div className="text-sm bg-dashboard-dark text-light-100">
+    <div className="text-sm min-h-screen pb-12 bg-dashboard-dark text-light-100">
       <section className="p-8 text-sm text-light-300 flex justify-between">
         Filter by favorite
         <MdArrowDropDown className="w-4 h-4 text-light-button" />

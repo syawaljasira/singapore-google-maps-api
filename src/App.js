@@ -5,7 +5,7 @@ import Map from './components/GoogleMap';
 function App() {
   return (
     <div className="App w-full flex">
-      <div className="w-1/12">
+      <div className="w-1/12 pb-6 bg-dashboard-light">
         <Dashboard />
       </div>
       <div className="w-3/12">

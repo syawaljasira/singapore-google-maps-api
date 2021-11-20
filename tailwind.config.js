@@ -17,6 +17,12 @@ module.exports = {
           button: '#A9ABAF',
         },
       },
+      maxHeight: {
+        '90vh': '90vh',
+      },
+      minHeight: {
+        '90vh': '90vh',
+      },
     },
   },
   variants: {
