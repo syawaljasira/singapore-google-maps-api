@@ -1,5 +1,6 @@
 import BrowseDashboard from './components/BrowseDashboard';
 import Dashboard from './components/Dashboard';
+import Map from './components/GoogleMap';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <div className="w-3/12">
         <BrowseDashboard />
       </div>
-      <div className="w-full">react</div>
+      <div className="w-full">
+        <Map />
+      </div>
     </div>
   );
 }

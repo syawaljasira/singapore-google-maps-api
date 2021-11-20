@@ -1,11 +1,10 @@
 import React from 'react';
 import { MdArrowDropDown, MdArrowDropUp } from 'react-icons/md';
-import { IoEarth } from 'react-icons/io5';
 
 const BrowseDashboard = () => {
   return (
     <div className="text-sm bg-dashboard-dark text-light-100">
-      <section className="p-9 text-sm text-light-300 flex justify-between">
+      <section className="p-8 text-sm text-light-300 flex justify-between">
         Filter by favorite
         <MdArrowDropDown className="w-4 h-4 text-light-button" />
       </section>
