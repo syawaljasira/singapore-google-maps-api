@@ -13,6 +13,7 @@ module.exports = {
           100: '#FEFEFE',
           200: '#8298A0',
           300: '#768B94',
+          button: '#A9ABAF',
         },
       },
     },
