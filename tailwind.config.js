@@ -23,6 +23,12 @@ module.exports = {
       minHeight: {
         '90vh': '90vh',
       },
+      fontSize: {
+        xxs: ['0.65rem', { lineHeight: '1rem' }],
+      },
+      height: {
+        22: '5.5rem',
+      },
     },
   },
   variants: {
