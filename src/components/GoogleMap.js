@@ -24,7 +24,7 @@ const Map = ({ selectedPlace, data, getMap }) => {
   return (
     <>
       <div className="p-8 bg-light-50 flex justify-between">
-        <span className="uppercase font-bold text-dashboard-dark poin">
+        <span className="uppercase font-bold text-dashboard-dark">
           Top-Rated Tourist Attractions In Singapore
         </span>
         <div className="flex space-x-2">
@@ -37,7 +37,7 @@ const Map = ({ selectedPlace, data, getMap }) => {
         </div>
       </div>
       {selectedPlace && <SelectedPlace selectedPlace={selectedPlace} />}
-      <LoadScript googleMapsApiKey="AIzaSyDwOATasairywrrDGjF8SBssub0WTzsStk">
+      <LoadScript googleMapsApiKey={process.env.GOOGLE_MAPS_API_KEY}>
         <GoogleMap
           center={
             selectedPlace.latitude
@@ -58,17 +58,6 @@ const Map = ({ selectedPlace, data, getMap }) => {
                 }}
                 onClick={() => getMap(mark)}
                 onLoad={onLoad}
-                // icon={{
-                //   url: '/marker.png',
-                // }}
-                // label={{
-                //   text: mark.placename,
-                //   fontSize: '0.65rem',
-                //   className:
-                //     'px-3 py-1 bg-dashboard-dark mb-4 rounded-xl rounded-r-none ' +
-                //     mark.marginLeft,
-                //   color: '#F4F7FA',
-                // }}
                 icon={{
                   url:
                     selectedPlace.placename === mark.placename

@@ -47,19 +47,6 @@ const BrowserDashboard = ({ selectedPlace, data, getMap }) => {
           </>
         );
       })}
-      {/* <Button onClick={() => setDropdown(false)}>
-        Garden by the Bay
-        <MdArrowDropDown className="w-4 h-4 text-light-button" />
-      </Button>
-      <Button onClick={() => setDropdown(false)}>
-        China Town
-        <MdArrowDropDown className="w-4 h-4 text-light-button" />
-      </Button>
-      <Button>Asian Civilizations Museum</Button>
-      <Button>Clarke Quay</Button>
-      <Button>Fort Canning Park</Button>
-      <Button>Singapore Flyer</Button>
-      <Button>Orchard Park</Button> */}
     </div>
   );
 };
