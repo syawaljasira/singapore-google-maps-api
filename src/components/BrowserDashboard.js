@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import { MdArrowDropDown, MdArrowDropUp } from 'react-icons/md';
 import Button from './Button';
 
-const BrowserDashboard = ({ setSelectedPlace, data }) => {
+const BrowserDashboard = ({ selectedPlace, data, getMap }) => {
   const [dropdown, setDropdown] = useState('');
   console.log(dropdown);
 
   return (
     <div className="text-xs min-h-screen text-light-100">
-      <section className="p-8 text-sm text-light-300 flex justify-between">
+      <section className="p-8 text-xxs text-light-300 flex justify-between">
         Filter by favorite
         <MdArrowDropDown className="w-4 h-4 text-light-button" />
       </section>
@@ -18,7 +18,11 @@ const BrowserDashboard = ({ setSelectedPlace, data }) => {
           <>
             <Button
               key={mark.placename}
-              onClick={() => setDropdown(dropdown === '' ? mark.placename : '')}
+              onClick={() => {
+                setDropdown(dropdown === '' ? mark.placename : '');
+                getMap(mark);
+              }}
+              selectedPlace={selectedPlace}
             >
               {mark.placename}
               {mark.child &&
@@ -28,7 +32,7 @@ const BrowserDashboard = ({ setSelectedPlace, data }) => {
                   <MdArrowDropDown className="w-4 h-4 text-light-button transition-all duration-300" />
                 ))}
             </Button>
-            {mark.child && (
+            {selectedPlace.placename === mark.placename && mark.child && (
               <ul
                 className={classNames(
                   'text-xxs text-light-300 relative transition-all duration-300',

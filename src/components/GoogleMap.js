@@ -39,7 +39,11 @@ const Map = ({ selectedPlace, data, getMap }) => {
       {selectedPlace && <SelectedPlace selectedPlace={selectedPlace} />}
       <LoadScript googleMapsApiKey="AIzaSyDwOATasairywrrDGjF8SBssub0WTzsStk">
         <GoogleMap
-          center={center}
+          center={
+            selectedPlace.latitude
+              ? { lat: selectedPlace.latitude, lng: selectedPlace.longitude }
+              : center
+          }
           mapContainerClassName="w-full min-h-90vh"
           zoom={15}
           options={options}
@@ -54,15 +58,35 @@ const Map = ({ selectedPlace, data, getMap }) => {
                 }}
                 onClick={() => getMap(mark)}
                 onLoad={onLoad}
+                // icon={{
+                //   url: '/marker.png',
+                // }}
+                // label={{
+                //   text: mark.placename,
+                //   fontSize: '0.65rem',
+                //   className:
+                //     'px-3 py-1 bg-dashboard-dark mb-4 rounded-xl rounded-r-none ' +
+                //     mark.marginLeft,
+                //   color: '#F4F7FA',
+                // }}
                 icon={{
-                  url: '/pngwing.com.png',
+                  url:
+                    selectedPlace.placename === mark.placename
+                      ? '/marker-lg.png'
+                      : '/marker.png',
                 }}
                 label={{
                   text: mark.placename,
-                  fontSize: '0.65rem',
+                  fontSize:
+                    selectedPlace.placename === mark.placename
+                      ? '0.85rem'
+                      : '0.65rem',
                   className:
-                    'px-3 py-1 bg-dashboard-dark ml-14 mb-4 rounded-xl rounded-r-none ' +
-                    mark.marginLeft,
+                    selectedPlace.placename === mark.placename
+                      ? 'px-3 py-2 bg-green-base mb-6 rounded-full rounded-r-none ' +
+                        mark.marginLeft
+                      : 'px-3 py-1 bg-dashboard-dark mb-4 rounded-full rounded-r-none ' +
+                        mark.marginLeft,
                   color: '#F4F7FA',
                 }}
               />

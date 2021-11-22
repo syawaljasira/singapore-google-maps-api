@@ -8,7 +8,7 @@
     "marginLeft": "ml-12",
     "image": "/images/merlion.jpg",
     "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "website": "https://www.visitsingapore.com/see-do-singapore/recreation-leisure/viewpoints/merlion-park/"
   },
   {
     "latitude": 1.283099,
@@ -19,7 +19,7 @@
     "marginLeft": "ml-24",
     "image": "/images/marina-bay-sands.jpg",
     "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com",
+    "website": "http://www.marinabaysands.com/index.html",
     "child": [
       "ArtScience Museum",
       "Marina Bay Sands Skypark",
@@ -30,77 +30,88 @@
     "latitude": 1.28179,
     "longitude": 103.863954,
     "placename": "Gardens By The Bay",
-    "headline": "",
-    "description": "The Gardens By The Bay is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "headline": "Gardens by the Bay’s soaring, surreal architecture, diverse gardens and pristine groves truly make it a sight to behold.",
+    "description": "Located by the Marina Bay Waterfront in the heart of Singapore, Gardens by the Bay is a sanctuary for nature lovers and budding horticulturalists alike. Comprising three distinct spaces over 101 hectares–Bay South Garden, Bay East Garden and Bay Central Garden–this oasis of lush greenery has won multiple accolades since it first opened in 2012.",
     "marginLeft": "ml-24",
     "image": "/images/gardens-by-the-bay.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "address": "18 Marina Gardens Drive, Singapore",
+    "website": "http://www.gardensbythebay.com.sg/",
+    "child": [
+      "Flower Dome",
+      "Floral Fantasy",
+      "Cloud Forest",
+      "Supertree Grove"
+    ]
   },
   {
     "latitude": 1.284193,
     "longitude": 103.843362,
-    "placename": "Chinatown",
-    "headline": "",
-    "description": "The Chinatown is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "placename": "China Town",
+    "headline": "A district with many thriving places of worship, Chinatown is home to a multitude of cultural practices, religions and inspiring architecture.",
+    "description": "Once an enclave for Singapore’s Chinese immigrant population, the Chinatown of today is much-beloved for its blend of old and new, with historic temples and traditional medicinal halls sitting alongside bold new bars and trendy lifestyle shops.",
     "marginLeft": "ml-14",
     "image": "/images/chinatown.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "address": "2 Banda Street, Singapore",
+    "website": "http://www.chinatown.sg/",
+    "child": [
+      "Buddha Tooth Relic Temple & Museum",
+      "Fuk Tak Chi Museum",
+      "Kuil Thian Hock Museum"
+    ]
   },
   {
     "latitude": 1.287466,
     "longitude": 103.851424,
     "placename": "Asian Civilisations Museum",
-    "headline": "",
-    "description": "The Asian Civilisations Museum is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "headline": "A series of sculptures that depict the everyday lives of locals under colonial rule, ‘People of The River’ offers a nostalgic look into 19th-century Singapore. ",
+    "description": "The Asian Civilisations Museum is the only museum in the region devoted to exploring the artistic heritage of Asia, especially the ancestral cultures of Singaporeans. Founded in 1993, and in its present building by the Singapore River since 2003, the ACM launched two new wings with new galleries in late 2015.",
     "marginLeft": "ml-32",
     "image": "/images/asian-cv-museum.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "address": "1 Empress Place, Singapore",
+    "website": "https://www.acm.org.sg/"
   },
   {
     "latitude": 1.290555,
     "longitude": 103.846188,
     "placename": "Clarke Quay",
-    "headline": "",
-    "description": "The Clarke Quay is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "headline": "Clarke quay is located in the middle of the city, right on the Singapore River. In Clarke Quay, we can find many night entertainment tours such as cafes, bars, and clubbing places.",
+    "description": "To enjoy this night tour at Clarke Quay Singapore, we don't have to drink or hang out at the bar. We can just look around, while hanging out sitting by the river. can buy ice cream and hang out together.",
     "marginLeft": "ml-16",
     "image": "/images/clarke-quay.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
+    "address": "3 River Valley Road, Singapore",
     "website": "https://visitsingapore.com"
   },
   {
     "latitude": 1.295526,
     "longitude": 103.845331,
     "placename": "Fort Canning Park",
-    "headline": "",
-    "description": "The Fort Canning Park is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "headline": "More than just a green space, Fort Canning Park is a gateway to fascinating historical insights and relics from days of yore.",
+    "description": "The park was originally known as Bukit Larangan, or 'Forbidden Hill' in Malay. Today, the 18-hectare space is chock full of attractions—from ancient artefacts for history buffs to outdoor lawns for concerts, and of course, greenery for nature lovers. The charming boutique Hotel Fort Canning, also lies here.",
     "marginLeft": "ml-24",
     "image": "/images/fort-canning-park.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "address": "Bounded by Hill Street, Canning Rise, Clemenceau Avenue and River Valley Road, Singapore",
+    "website": "https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/fort-canning-park"
   },
   {
     "latitude": 1.289332,
     "longitude": 103.863152,
     "placename": "Singapore Flyer",
-    "headline": "",
-    "description": "The Singapore Flyer is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "headline": "A giant observation wheel that stands amidst the skyscrapers in the Singapore skyline, the Singapore Flyer is the go-to attraction for the most magnificent views of our city.",
+    "description": "Located in the heart of downtown Marina Bay, the Singapore Flyer is Asia's largest giant observation wheel. More importantly, it is high on thrills for tourists and locals alike. Step into one of the 28 fully air-conditioned glass capsules, and be transported on a 30-minute journey of stunning day and night scenes. From this glorious vantage point, you’ll be able to feast your eyes on iconic and historical sights from Marina Bay to the Singapore River, such as Raffles Place, Merlion Park, Empress Place and the Padang.",
     "marginLeft": "ml-20",
     "image": "/images/singapore-flyer.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "address": "30 Raffles Avenue, Singapore",
+    "website": "http://www.singaporeflyer.com/"
   },
   {
     "latitude": 1.302279,
     "longitude": 103.837399,
     "placename": "Orchard Road",
-    "headline": "",
-    "description": "The Orchard Road is the national personification of Singapore. Its name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore origin as a fishing village when it was called \"Temasek\", which means \"Sea Town\" in Javanese. The lion head represents Singapore original name \"Singapura\" meaning \"lion city\" or \"kota singa\"",
+    "headline": "Orchard Road’s bustling boulevard is now a retail and dining paradise, with thousands of establishments offering the ultimate lifestyle experience to tourists and locals alike.",
+    "description": "Orchard Road’s humble beginnings date back to the early 1830s, when it was an unnamed road home to fruit orchards, nutmeg plantations and pepper farms. In 1958, Orchard Road’s first department store—TANGS—was set up by local merchant C.K. Tang. Then known as House of Tangs, it marked the neighbourhood’s first step towards becoming Singapore’s most beloved shopping district.",
     "marginLeft": "ml-16",
     "image": "/images/orchard-road.jpg",
-    "address": "10 Bayfront Avenue, Singapore",
-    "website": "https://visitsingapore.com"
+    "address": "437 Orchard Road, Singapore",
+    "website": "http://www.orchardroad.org/"
   }
 ]

@@ -8,6 +8,7 @@ module.exports = {
           light: '#313541',
           dark: '#282C37',
           blue: '#72CDD2',
+          hover: '#1C1F27',
         },
         light: {
           50: '#F4F7FA',
@@ -15,6 +16,9 @@ module.exports = {
           200: '#8298A0',
           300: '#768B94',
           button: '#A9ABAF',
+        },
+        green: {
+          base: '#92D72E',
         },
       },
       maxHeight: {

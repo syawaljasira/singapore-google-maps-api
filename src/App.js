@@ -32,6 +32,7 @@ function App() {
           data={data}
           selectedPlace={selectedPlace}
           setSelectedPlace={setSelectedPlace}
+          getMap={getMap}
         />
       </div>
       <div className="w-full">
